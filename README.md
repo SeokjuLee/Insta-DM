@@ -123,7 +123,7 @@ sh scripts/train_resnet_256_cs.sh
 
 Please indicate the location of the dataset with `$TRAIN_SET`.
 
-The hyperparameters (batch size, learning rate, loss weight, etc.) are defined in each script file and [default arguments](https://github.com/SeokjuLee/Insta-DM/blob/master/train.py) in `train.py`. Please also check our [main paper](https://sites.google.com/site/seokjucv/).
+The hyperparameters (batch size, learning rate, loss weight, etc.) are defined in each script file and [default arguments](train.py) in `train.py`. Please also check our [main paper](https://sites.google.com/site/seokjucv/).
 
 During training, checkpoints will be saved in `checkpoints/`.
 
@@ -214,5 +214,5 @@ More results are demonstrated in [this link](https://youtu.be/_S4GnK8QTF4).
 
 ## License
 
-The source code is released under the [MIT license](LICENSE.md).
+The source code is released under the [MIT license](LICENSE).
  
