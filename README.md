@@ -6,11 +6,11 @@
 
 This is the official PyTorch implementation for the system proposed in the paper :
 
- >Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency
+ >**Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency**
  >
- >[Seokju Lee](https://sites.google.com/site/seokjucv/), Sunghoon Im, Stephen Lin, In So Kweon
+ >[**Seokju Lee**](https://sites.google.com/site/seokjucv/), [Sunghoon Im](https://sunghoonim.github.io/), [Stephen Lin](https://www.microsoft.com/en-us/research/people/stevelin/), and [In So Kweon](http://rcv.kaist.ac.kr/index.php?mid=rcv_faculty)
  >
- >**AAAI-21** [[PDF](https://sites.google.com/site/seokjucv/)] [[Project](https://sites.google.com/site/seokjucv/)]
+ >**AAAI-21** [[PDF](https://sites.google.com/site/seokjucv/)] [[Project](https://sites.google.com/site/seokjucv/home/instadm)]
 
 
 <p align="center">
