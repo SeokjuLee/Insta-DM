@@ -10,7 +10,7 @@ This is the official PyTorch implementation for the system proposed in the paper
  >
  >[**Seokju Lee**](https://sites.google.com/site/seokjucv/), [Sunghoon Im](https://sunghoonim.github.io/), [Stephen Lin](https://www.microsoft.com/en-us/research/people/stevelin/), and [In So Kweon](http://rcv.kaist.ac.kr/index.php?mid=rcv_faculty)
  >
- >**AAAI-21** [[PDF](https://sites.google.com/site/seokjucv/)] [[Project](https://sites.google.com/site/seokjucv/home/instadm)]
+ >**AAAI-21** [[PDF](https://arxiv.org/abs/2102.02629)] [[Project](https://sites.google.com/site/seokjucv/home/instadm)]
 
 
 <p align="center">
@@ -123,7 +123,7 @@ sh scripts/train_resnet_256_cs.sh
 
 Please indicate the location of the dataset with `$TRAIN_SET`.
 
-The hyperparameters (batch size, learning rate, loss weight, etc.) are defined in each script file and [default arguments](train.py) in `train.py`. Please also check our [main paper](https://sites.google.com/site/seokjucv/).
+The hyperparameters (batch size, learning rate, loss weight, etc.) are defined in each script file and [default arguments](train.py) in `train.py`. Please also check our [main paper](https://arxiv.org/abs/2102.02629).
 
 During training, checkpoints will be saved in `checkpoints/`.
 
