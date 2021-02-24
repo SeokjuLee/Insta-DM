@@ -28,7 +28,7 @@ This is the official PyTorch implementation for the system proposed in the paper
 @inproceedings{lee2021learning,
   title={Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency},
   author={Lee, Seokju and Im, Sunghoon and Lin, Stephen and Kweon, In So},
-  booktitle= {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2021}
 }
 ```
