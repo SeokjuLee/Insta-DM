@@ -14,7 +14,7 @@ This is the official PyTorch implementation for the system proposed in the paper
 
 
 <p align="center">
-  <img src="./misc/demo_sample.gif"/>
+  [<img src="./misc/demo_sample.gif"/>](https://www.youtube.com/watch?v=Ps1eVxB8ai0&list=PLKU7OeKLYkGbtkUQT6ZEiOj07UzUOnvyb&index=16&ab_channel=SeokjuLee)
 </p>
 
 <p align="center">
