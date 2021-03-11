@@ -80,7 +80,7 @@ pip3 install torch-scatter torch-sparse -f https://pytorch-geometric.com/whl/tor
 
 ## Datasets
 
-We provide our KITTI-VIS and Cityscapes-VIS dataset ([download link](https://bosch.frameau.xyz/index.php/s/JQ7PFjGsfJABdYk)), which is composed of pre-processed images, auto-annotated instance segmentation, and optical flow.
+We provide our KITTI-VIS and Cityscapes-VIS dataset ([download link](https://drive.google.com/drive/folders/1tgQKHDj3tf97LZoQqXxcOF4LVHoIKXcs?usp=sharing)), which is composed of pre-processed images, auto-annotated instance segmentation, and optical flow.
 
 - Images are pre-processed with [SC-SfMLearner](https://github.com/JiawangBian/SC-SfMLearner-Release/blob/master/scripts/run_prepare_data.sh).
 
