@@ -14,11 +14,11 @@ This is the official PyTorch implementation for the system proposed in the paper
 
 
 <p align="center">
-  [<img src="./misc/demo_sample.gif"/>](https://www.youtube.com/watch?v=Ps1eVxB8ai0&list=PLKU7OeKLYkGbtkUQT6ZEiOj07UzUOnvyb&index=16&ab_channel=SeokjuLee)
+  <img src="./misc/demo_sample.gif"/>
 </p>
 
 <p align="center">
-   &Longrightarrow; <strong><em>Unified Visual Odometry</em></strong> : Our holistic visualization of depth and motion estimation from self-supervised monocular training.
+  &Longrightarrow; <strong><em>Unified Visual Odometry</em></strong> : Our holistic visualization of depth and motion estimation from self-supervised monocular training.
 </p>
 
 
