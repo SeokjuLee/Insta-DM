@@ -6,7 +6,7 @@
 TRAIN_SET=/seokju/KITTI/kitti_256
 
 
-### Cityscapes model ###
+### KITTI model ###
 PRETRAINED=checkpoints/models-release/KITTI
 # PRETRAINED=checkpoints/models-release/CS+KITTI
 

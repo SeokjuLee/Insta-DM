@@ -6,11 +6,11 @@
 
 This is the official PyTorch implementation for the system proposed in the paper :
 
- >Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency
+ >**Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency**
  >
- >[Seokju Lee](https://sites.google.com/site/seokjucv/), Sunghoon Im, Stephen Lin, In So Kweon
+ >[**Seokju Lee**](https://sites.google.com/site/seokjucv/), [Sunghoon Im](https://sunghoonim.github.io/), [Stephen Lin](https://www.microsoft.com/en-us/research/people/stevelin/), and [In So Kweon](http://rcv.kaist.ac.kr/index.php?mid=rcv_faculty)
  >
- >**AAAI-21** [[PDF](https://sites.google.com/site/seokjucv/)] [[Project](https://sites.google.com/site/seokjucv/)]
+ >**AAAI-21** [[PDF](https://arxiv.org/abs/2102.02629)] [[Project](https://sites.google.com/site/seokjucv/home/instadm)]
 
 
 <p align="center">
@@ -18,7 +18,7 @@ This is the official PyTorch implementation for the system proposed in the paper
 </p>
 
 <p align="center">
-   &Longrightarrow; <strong><em>Unified Visual Odometry</em></strong> : Our holistic visualization of depth and motion estimation from self-supervised monocular training.
+  &Longrightarrow; <strong><em>Unified Visual Odometry</em></strong> : Our holistic visualization of depth and motion estimation from self-supervised monocular training.
 </p>
 
 
@@ -28,7 +28,7 @@ This is the official PyTorch implementation for the system proposed in the paper
 @inproceedings{lee2021learning,
   title={Learning Monocular Depth in Dynamic Scenes via Instance-Aware Projection Consistency},
   author={Lee, Seokju and Im, Sunghoon and Lin, Stephen and Kweon, In So},
-  booktitle= {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2021}
 }
 ```
@@ -80,7 +80,7 @@ pip3 install torch-scatter torch-sparse -f https://pytorch-geometric.com/whl/tor
 
 ## Datasets
 
-We provide our KITTI-VIS and Cityscapes-VIS dataset ([download link](https://bosch.frameau.xyz/index.php/s/JQ7PFjGsfJABdYk)), which is composed of pre-processed images, auto-annotated instance segmentation, and optical flow.
+We provide our KITTI-VIS and Cityscapes-VIS dataset ([download link](https://drive.google.com/drive/folders/1tgQKHDj3tf97LZoQqXxcOF4LVHoIKXcs?usp=sharing)), which is composed of pre-processed images, auto-annotated instance segmentation, and optical flow.
 
 - Images are pre-processed with [SC-SfMLearner](https://github.com/JiawangBian/SC-SfMLearner-Release/blob/master/scripts/run_prepare_data.sh).
 
@@ -123,7 +123,7 @@ sh scripts/train_resnet_256_cs.sh
 
 Please indicate the location of the dataset with `$TRAIN_SET`.
 
-The hyperparameters (batch size, learning rate, loss weight, etc.) are defined in each script file and [default arguments](train.py) in `train.py`. Please also check our [main paper](https://sites.google.com/site/seokjucv/).
+The hyperparameters (batch size, learning rate, loss weight, etc.) are defined in each script file and [default arguments](train.py) in `train.py`. Please also check our [main paper](https://arxiv.org/abs/2102.02629).
 
 During training, checkpoints will be saved in `checkpoints/`.
 
