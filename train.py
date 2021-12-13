@@ -469,7 +469,7 @@ def train(args, train_loader, disp_net, ego_pose_net, obj_pose_net, optimizer, e
             plt.imshow(tgt); plt.colorbar(); plt.grid(linestyle=':', linewidth=0.4); plt.text(10, -14, "tgt", fontsize=7, bbox=dict(facecolor='None', edgecolor='None'));
             fig.add_subplot(gs[1, 0:2]); ii += 2;
             plt.imshow(t2r_ego); plt.colorbar(); plt.grid(linestyle=':', linewidth=0.4); plt.text(10, -14, "t2r_ego", fontsize=7, bbox=dict(facecolor='None', edgecolor='None'));
-            fig.add_subplot(gs[1, 2:4]); ii += 2;b
+            fig.add_subplot(gs[1, 2:4]); ii += 2;
             plt.imshow(r2t_ego); plt.colorbar(); plt.grid(linestyle=':', linewidth=0.4); plt.text(10, -14, "r2t_ego", fontsize=7, bbox=dict(facecolor='None', edgecolor='None'));
             fig.add_subplot(gs[2, 0:2]); ii += 2;
             plt.imshow(t2r); plt.colorbar(); plt.grid(linestyle=':', linewidth=0.4); plt.text(10, -14, "t2r", fontsize=7, bbox=dict(facecolor='None', edgecolor='None'));
